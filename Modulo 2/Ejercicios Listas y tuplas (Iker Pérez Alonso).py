@@ -312,11 +312,8 @@ print(tupla_9.count(50))
 '''
 tupla_10 = (45, 45, 45, 45)
 
-for numero in tupla_10:
-    if tupla_10[0] != numero:
-        print("No todos los elementos son iguales")
-        break
+if len(set(tupla_10)) == 1:
+    print("Todos los elementos son iguales")
 else:
-    print("Todos los elementos son iguales ")
-
+    print("No todos los elementos son iguales")
 '''
