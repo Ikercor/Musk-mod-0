@@ -1,0 +1,4 @@
+Rosas son rojas,
+Violetas azules,
+Este poema lo lee
+Un programa que tú construyes.
